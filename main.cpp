@@ -46,6 +46,15 @@ void counterfunc(int tries,char item[50]){    // responsible for giving chance t
     }
 }
 
+void countletters(char item[50]){
+    int num;
+    for(int i=0;item[i] !='\0';i++){
+        num++;
+    }
+    cout << "\nThe total characters are "<<  num;
+}
+
+
 
 int main()
 {
@@ -71,6 +80,7 @@ int main()
         strcpy(item,famper[randomnum(6)]);
         break;
     }
+    countletters(item);
     cout << item;
     displayitem(item);
     cout << "\n" ;
