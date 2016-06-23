@@ -54,6 +54,9 @@ void countletters(char item[50]){
     cout << "\nThe total characters are "<<  num;
 }
 
+void addletters(){
+    cout << "its awesome";
+}
 
 
 int main()
@@ -81,6 +84,7 @@ int main()
         break;
     }
     countletters(item);
+    addletters();
     cout << item;
     displayitem(item);
     cout << "\n" ;
